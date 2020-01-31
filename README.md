@@ -22,8 +22,8 @@ Feel free to contribute, just poke me: (sveinn at zkynet dot io)
 # XML Service
 ## Supported Methods 
  - https://specs.valitor.is/CorporatePayments_ISL/Web_Services/#41-fasyndarkortnumer
- - https://specs.valitor.is/CorporatePayments_ISL/Web_Services/#42-faheimild
- - https://specs.valitor.is/CorporatePayments_ISL/Web_Services/#43-faadeinsheimild
+ - https://specs.valitor.is/CorporatePayments_ISL/Web_Services/#42-GetAuthorization
+ - https://specs.valitor.is/CorporatePayments_ISL/Web_Services/#43-GetOnlyAuthorization
  -https://specs.valitor.is/CorporatePayments_ISL/Web_Services/#44-notaadeinsheimild
  - https://specs.valitor.is/CorporatePayments_ISL/Web_Services/#45-faendurgreitt
  - https://specs.valitor.is/CorporatePayments_ISL/Web_Services/#46-faogildingu
@@ -83,7 +83,7 @@ Card.VirtualNumber = response.VirtualNumber
 
 # The Responses
 ## Generic Receipt Response
-Example: https://specs.valitor.is/CorporatePayments_ISL/Web_Services/#42-faheimild
+Example: https://specs.valitor.is/CorporatePayments_ISL/Web_Services/#42-GetAuthorization
 Web_Services/
 <br/>
 The receipt also has a ToJSON() function.
